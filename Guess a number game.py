@@ -8,7 +8,6 @@ xh = 100
 guess = int(input(f'Please guess a number between {xl} and {xh}: '))
 count = 0
 while not guess == ans:
-    print(ans)
     if guess > ans:
         xh = guess
         guess = int(input(f'Please guess a number between {xl} and {xh}: '))
